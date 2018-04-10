@@ -16,5 +16,5 @@ RUN npm install
 
 VOLUME /var/openKB/data
 
-EXPOSE 4444
+EXPOSE 8080
 ENTRYPOINT ["npm", "start"]
